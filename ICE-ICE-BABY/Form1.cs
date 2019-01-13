@@ -246,7 +246,6 @@ namespace ICE_ICE_BABY
                 sk.Close();
             }
         }
-        bool t = false;
 
         private void chatInput_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -269,11 +268,6 @@ namespace ICE_ICE_BABY
                             PrintOutput("Unable to send message to the target.");
                         }
                     }
-                    //else
-                    //{
-                    //    ChatAppend(textToSend, t);
-                    //    t = !t;
-                    //}
                 }
             }
         }
